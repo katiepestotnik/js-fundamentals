@@ -18,3 +18,12 @@ console.log(getSecondLargest('test'))
 console.log(getSecondLargest([55, 2000, 40, 2001, 3400]))
 console.log(getSecondLargest(['e', 4, 5]))
 
+const squareSum = (numbers) => {
+    let sum = 0
+    numbers.forEach((num) => {
+        sum += Math.pow(num, 2)
+    })
+    return sum
+}
+console.log(squareSum([1, 2]), 5)
+
